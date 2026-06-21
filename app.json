@@ -1,0 +1,8 @@
+{
+  "slug": "cubiczan-standup",
+  "name": "Standup",
+  "category": "productivity",
+  "tagline": "AI-powered daily standup facilitator for agile teams",
+  "description": "Structured daily standup meetings with AI-powered reporting. Captures what you did yesterday, what you're doing today, and any blockers — then generates a clean summary for the team.",
+  "pricing_model": "free"
+}
