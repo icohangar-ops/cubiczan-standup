@@ -1,54 +1,30 @@
 {
   "package": {
     "name": "cubiczan-standup",
-    "version": "0.0.1",
+    "version": "2.0.0",
     "type": "module",
     "main": "index.js"
   },
   "tools": [
     {
-      "name": "standup-tool",
-      "description": "AI-powered daily standup meeting facilitator. Generates structured standup reports from team input.",
+      "name": "standup",
+      "description": "AI-powered daily standup facilitator with templates and best practices. Captures yesterday/today/blockers and generates structured reports for agile teams.",
       "type": "tool",
       "executa": {
-        "slug": "standup-tool",
+        "slug": "standup",
         "id": "tool-cubiczan-standup-tool-trj7594f",
         "distribution": {
           "type": "binary",
-          "executable_name": "standup-tool",
+          "executable_name": "standup",
           "platforms": {
             "darwin-arm64": {
-              "url": "https://github.com/icohangar-ops/cubiczan-standup/releases/download/v1.0.0/standup-tool-darwin-arm64.tar.gz"
+              "url": "https://github.com/icohangar-ops/cubiczan-standup/releases/download/v2.0.0/standup-darwin-arm64.tar.gz"
             },
             "darwin-x86_64": {
-              "url": "https://github.com/icohangar-ops/cubiczan-standup/releases/download/v1.0.0/standup-tool-darwin-x86_64.tar.gz"
+              "url": "https://github.com/icohangar-ops/cubiczan-standup/releases/download/v2.0.0/standup-darwin-x86_64.tar.gz"
             },
             "linux-x86_64": {
-              "url": "https://github.com/icohangar-ops/cubiczan-standup/releases/download/v1.0.0/standup-tool-linux-x86_64.tar.gz"
-            }
-          }
-        }
-      }
-    },
-    {
-      "name": "standup-playbook",
-      "description": "Structured standup meeting playbook with templates and best practices for agile teams.",
-      "type": "tool",
-      "executa": {
-        "slug": "standup-playbook",
-        "id": "tool-cubiczan-standup-playbook-ng7tcat9",
-        "distribution": {
-          "type": "binary",
-          "executable_name": "standup-playbook",
-          "platforms": {
-            "darwin-arm64": {
-              "url": "https://github.com/icohangar-ops/cubiczan-standup/releases/download/v1.0.0/standup-playbook-darwin-arm64.tar.gz"
-            },
-            "darwin-x86_64": {
-              "url": "https://github.com/icohangar-ops/cubiczan-standup/releases/download/v1.0.0/standup-playbook-darwin-x86_64.tar.gz"
-            },
-            "linux-x86_64": {
-              "url": "https://github.com/icohangar-ops/cubiczan-standup/releases/download/v1.0.0/standup-playbook-linux-x86_64.tar.gz"
+              "url": "https://github.com/icohangar-ops/cubiczan-standup/releases/download/v2.0.0/standup-linux-x86_64.tar.gz"
             }
           }
         }
